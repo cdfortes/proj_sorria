@@ -4,10 +4,16 @@
 @import url('reset.css');
 @import url('buttons.css');
 @import url('forms.css');
+@import url('custom-margin-padding.css');
+
 
 
 
 /*HEADER - Cabeçalho do website - */
+#header nav ul {
+    background-color: rgba(11, 19, 2, 0.055);
+}
+
 
 #header nav a {
     display: inline-block;
@@ -70,11 +76,49 @@
 }
 
 #whoareus{
-
-    text-align: center;
-    background-color: green
+   
+    background-color: #92D050;
 }
 
+#whoareus h2{
+
+    text-align: center;
+    background-color: #92D050;
+    
+}
+
+
+
+#img1 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.text-body{
+    text-align: justify;
+    color: white;
+    
+}
+#ourservices h2 {
+    text-align: center;
+   
+}
+
+#contact-us {
+     text-align: center;
+     background-color: rgb(131, 131, 133);
+}
+
+
+#footer{
+    background-color: rgb(51, 51, 51);
+    text-align: left;
+}
+#footer, #footer a{
+    color: rgb(204, 204, 204);
+}
 
 
 
