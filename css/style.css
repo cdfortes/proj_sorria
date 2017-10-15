@@ -1,0 +1,81 @@
+
+/*import dos css*/
+@import url('grid.css');
+@import url('reset.css');
+@import url('buttons.css');
+@import url('forms.css');
+
+
+
+/*HEADER - Cabeçalho do website - */
+
+#header nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#header nav a:hover,
+#header nav a.active {
+    
+    background-color: rgba(146, 208, 80, 0.3);
+}
+
+#header input{
+    background-image: none!important;
+    background-color: #f1f4f7!important;
+    border: 0;
+
+    height: 56px;
+    width: 533px;
+    padding-left: 17px;
+    color: #0c3c61;
+   
+    font-weight: 600;
+    font-size: 1.25em;
+   
+}
+
+#header {
+    background: #000 url("../images/background-header.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    height: 660px;
+    position: relative;
+    padding-top: 30px;
+}
+
+#header a {
+    color: #160202;
+}
+#header nav {
+    text-align: right;
+}
+
+#header nav ul, #header nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#header .search {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    text-align: center;
+}
+
+#whoareus{
+
+    text-align: center;
+    background-color: green
+}
+
+
+
+
+
