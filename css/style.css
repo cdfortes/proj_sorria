@@ -75,6 +75,11 @@
     text-align: center;
 }
 
+#header h1 {
+    font-size: 54px;
+    line-height: 60px;
+}
+
 #whoareus{
    
     background-color: #92D050;
@@ -138,6 +143,12 @@
 #footer ul li {
    display: block;
    
+}
+
+#copyright {
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
 }
 
 
