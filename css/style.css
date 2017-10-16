@@ -12,7 +12,7 @@
 /*HEADER - Cabeçalho do website - */
 #header nav ul {
     background-color: rgba(11, 19, 2, 0.336);
-    z-index: 999;
+    z-index: 1030;;
 }
 
     
@@ -58,6 +58,7 @@ img {
     height: 660px;
     position: relative;
     padding-top: 30px;
+    z-index: 1030;
 }
 
 #header a {
@@ -68,6 +69,7 @@ img {
     position: fixed;
     right: 200px;
     overflow: hidden;
+    z-index: 1030;
 }
 
 #header nav ul, #header nav ul li{
