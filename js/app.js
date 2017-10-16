@@ -8,6 +8,8 @@ function slider(){
    var caminho2 ="url('images/web/bg2.jpg')";
    var caminho3 ="url('images/web/bg3.jpg')";
    var caminho4 ="url('images/web/bg4.jpg')";
+
+   
     
    if (n==1) {
        
@@ -22,7 +24,7 @@ function slider(){
        slide.style.backgroundImage = caminho4;
        document.getElementById("tit").innerHTML = "Nos oferemos tratamentos de qualidade";
        n = 4;
-   } else if (n ==4) {
+   } else  {
        slide.style.backgroundImage = caminho1;
        document.getElementById("tit").innerHTML = "Nos oferemos tratamentos de qualidade";
        n = 1;
