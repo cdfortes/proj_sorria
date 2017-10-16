@@ -15,6 +15,11 @@
     z-index: 1030;;
 }
 
+#top-header{
+    background-color: rgba(11, 19, 2, 0.336);
+    z-index: 1030;;
+}
+
     
 img {
     max-width: 100%;
