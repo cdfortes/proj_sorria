@@ -19,6 +19,9 @@
     background-color: rgba(11, 19, 2, 0.336);
    top:0;
     position: fixed;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
 }
 
     
