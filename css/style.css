@@ -11,8 +11,8 @@
 
 /*HEADER - Cabeçalho do website - */
 #header nav ul {
-    background-color: rgba(11, 19, 2, 0.336);
-    z-index: 1030;;
+   
+    z-index: 2030;;
 }
 
 #top-header{
@@ -72,7 +72,7 @@ img {
 }
 #header nav {
     text-align: right;
-    position: fixed;
+   
     right: 200px;
     overflow: hidden;
     z-index: 1030;
