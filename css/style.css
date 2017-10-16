@@ -172,7 +172,10 @@ img {
    display: block;
    
 }
-
+#footer .col-4 h3{
+    paddig-top:10px;
+    text-align: left;
+}
 #copyright {
     text-align: center;
     background-color: rgb(34, 34, 34);
