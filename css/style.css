@@ -19,8 +19,17 @@
 
 /*HEADER - Cabeçalho do website - */
 #header nav ul {
+   
+    z-index: 2030;;
+}
+
+#top-header{
     background-color: rgba(11, 19, 2, 0.336);
-    z-index: 999;
+   top:0;
+    position: fixed;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
 }
 
     
@@ -66,6 +75,7 @@ img {
     height: 660px;
     position: relative;
     padding-top: 30px;
+    z-index: 1030;
 }
 
 #header a {
@@ -73,9 +83,10 @@ img {
 }
 #header nav {
     text-align: right;
-    position: fixed;
+   
     right: 200px;
     overflow: hidden;
+    z-index: 2030;
 }
 
 #header nav ul, #header nav ul li{
@@ -169,7 +180,10 @@ img {
    display: block;
    
 }
-
+#footer .col-4 h3{
+    paddig-top:10px;
+    text-align: left;
+}
 #copyright {
     text-align: center;
     background-color: rgb(34, 34, 34);
