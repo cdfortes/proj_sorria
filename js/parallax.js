@@ -1,6 +1,6 @@
 function scrollBanner() {
     var scrollPos;
-    var headerText = document.querySelector('.header-paralax h1');
+    var headerText = document.querySelector('.header');
     scrollPos = window.scrollY;
   
     if (scrollPos <= 600) {

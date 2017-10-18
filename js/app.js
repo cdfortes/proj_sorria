@@ -1,3 +1,11 @@
+/**********************************************
+ ***Author: Carlos Fortes
+ **Version: 1.0 -
+ **Project: website without lib or frameworks
+ ****Email: cdfortes@gmail
+ ***Github: https: //github.com/cdfortes/
+ ***********************************************/
+
 var n = 1;
 
 
